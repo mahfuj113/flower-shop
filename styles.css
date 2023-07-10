@@ -1,0 +1,264 @@
+/* common styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Banner related styles */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner-items {
+    padding-left: 250px;
+}
+
+.banner-heading {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+
+.primary-button {
+    color: #FFF;
+    padding: 20px 40px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+
+.banner-image {
+    width: 400px;
+    padding: 50px 240px 0px 0px;
+}
+
+/* This is our features flower styles */
+
+.featured-heading {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.flower-images-first {
+    width: 300px;
+    padding-top: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-align: center;
+}
+
+.flower-images-second {
+    width: 300px;
+    padding-top: 110px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    text-align: center;
+}
+
+.image-heading-container {
+    padding-bottom: 15px;
+}
+
+.flower-images-third {
+    width: 300px;
+    padding-top: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    text-align: center;
+}
+
+.feature-flower {
+    width: 150px;
+}
+
+.flower-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 10px;
+}
+
+/* This is delivery and support styles */
+.delivery-and-support-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 120px 240px;
+    gap: 100px;
+}
+
+.delivery {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+/* This is hot deal and sing up related styles */
+.hot-deal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 60px 0px;
+}
+
+.hot-deal-items {
+    width: 40%;
+}
+
+.hot-deal-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.sing-up {
+    text-align: center;
+}
+
+.hot-deal-image {
+    width: 200px;
+}
+
+/* This is instagram related styles */
+.instagram-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 25px 0px 40px 0px;
+}
+
+.image-contaier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.instagram-flower {
+    width: 250px;
+}
+
+/* This is The Latest Deals related styles */
+.latest-details-contaier {
+    text-align: center;
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+}
+
+.details-header {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: -100px;
+    padding-top: 40px;
+
+}
+
+.details-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.input-email {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 300px 20px 20px;
+}
+/* This is footer related styles */
+.footer-container{
+    text-align: center;
+    background: #111010;
+}
+.footer-heading{
+    color: #E55473;
+font-size: 48px;
+font-weight: 800;
+padding-top: 100px;
+}
+.footer-colour{
+   color:rgba(255, 255, 255, 1)
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+/* text-align: center; */
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding: 25px 0px 30px 0px;
+/* margin: 20px 0px 30px 0px; */
+}
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.40);
+/* text-align: center; */
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 100px;
+}
