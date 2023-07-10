@@ -198,6 +198,44 @@
     width: 250px;
 }
 
+/* This is customer review related styles */
+.customer-review {
+    margin: 40px 180px;
+    /* padding-left: 50px; */
+    padding: 0px 0px 0px 20px;
+}
+
+.review-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px 0px 20px 0px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-items {
+    background: rgba(229, 84, 115, 0.05);
+    margin-right: 30px;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.reviewer-name {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reviewer-image {
+    width: 100px;
+    border-radius: 50%;
+}
+
 /* This is The Latest Deals related styles */
 .latest-details-contaier {
     text-align: center;
@@ -225,40 +263,46 @@
     line-height: 30px;
     padding-bottom: 50px;
 }
+
 .input-email {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
     padding: 20px 300px 20px 20px;
 }
+
 /* This is footer related styles */
-.footer-container{
+.footer-container {
     text-align: center;
     background: #111010;
 }
-.footer-heading{
+
+.footer-heading {
     color: #E55473;
-font-size: 48px;
-font-weight: 800;
-padding-top: 100px;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 100px;
 }
-.footer-colour{
-   color:rgba(255, 255, 255, 1)
+
+.footer-colour {
+    color: rgba(255, 255, 255, 1)
 }
-.footer-description{
+
+.footer-description {
     color: rgba(255, 255, 255, 0.90);
-/* text-align: center; */
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-padding: 25px 0px 30px 0px;
-/* margin: 20px 0px 30px 0px; */
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 25px 0px 30px 0px;
+    /* margin: 20px 0px 30px 0px; */
 }
-.footer-copyright{
+
+.footer-copyright {
     color: rgba(255, 255, 255, 0.40);
-/* text-align: center; */
-font-family: Lato;
-font-size: 16px;
-font-weight: 400;
-padding-bottom: 100px;
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 100px;
 }
